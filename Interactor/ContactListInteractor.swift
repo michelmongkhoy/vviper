@@ -9,6 +9,9 @@
 import Foundation
 
 struct ContactListInteractor {
+
+    var router: ContactListRouter?
+    
     func loadDataFromServer(callback: (Bool) -> Void) {
         callback(true)
     }
