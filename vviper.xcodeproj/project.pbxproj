@@ -14,6 +14,7 @@
 		EEC637141F13AFC0001ABE67 /* ContactListStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC637131F13AFC0001ABE67 /* ContactListStoryboard.storyboard */; };
 		EEC637161F13B204001ABE67 /* ContactListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC637151F13B204001ABE67 /* ContactListVC.swift */; };
 		EEC637181F13B5D3001ABE67 /* ContactListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC637171F13B5D3001ABE67 /* ContactListPresenter.swift */; };
+		EEC6371C1F13BAB3001ABE67 /* ContactListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6371B1F13BAB3001ABE67 /* ContactListInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EEC637131F13AFC0001ABE67 /* ContactListStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ContactListStoryboard.storyboard; path = vviper/Modules/ContactList/View/ContactListStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
 		EEC637151F13B204001ABE67 /* ContactListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListVC.swift; path = vviper/Modules/ContactList/View/ContactListVC.swift; sourceTree = SOURCE_ROOT; };
 		EEC637171F13B5D3001ABE67 /* ContactListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListPresenter.swift; path = vviper/Modules/ContactList/Presenter/ContactListPresenter.swift; sourceTree = SOURCE_ROOT; };
+		EEC6371B1F13BAB3001ABE67 /* ContactListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListInteractor.swift; path = Interactor/ContactListInteractor.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		EEC6370C1F13ACDB001ABE67 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
+				EEC6371A1F13BA73001ABE67 /* Interactor */,
 				EEC6370D1F13AD5C001ABE67 /* View */,
 				EEC637191F13B5EB001ABE67 /* Presenter */,
 			);
@@ -104,6 +107,14 @@
 			);
 			name = Presenter;
 			path = vviper/Modules/ContactList/View;
+			sourceTree = "<group>";
+		};
+		EEC6371A1F13BA73001ABE67 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				EEC6371B1F13BAB3001ABE67 /* ContactListInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC637181F13B5D3001ABE67 /* ContactListPresenter.swift in Sources */,
+				EEC6371C1F13BAB3001ABE67 /* ContactListInteractor.swift in Sources */,
 				EEC636FA1F13AC79001ABE67 /* AppDelegate.swift in Sources */,
 				EEC637161F13B204001ABE67 /* ContactListVC.swift in Sources */,
 			);
