@@ -12,4 +12,7 @@ struct ContactListPresenter {
 
     let backgroundColorHighlight = true
 
+    func reloadData() {
+        
+    }
 }

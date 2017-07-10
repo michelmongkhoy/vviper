@@ -20,9 +20,7 @@ class ContactListVC: UITableViewController {
             return
         }
 
-        if (presenter.backgroundColorHighlight) {
-            tableView.backgroundColor = UIColor.blue
-        }
+        presenter.reloadData()
     }
 
 }
