@@ -16,8 +16,14 @@ class ContactListVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        guard let presenter = presenter else {
+        guard var presenter = presenter else {
             return
+        }
+
+        presenter.backgroundHasChanged = { (result) in
+            if (result) {
+                self.tableView.backgroundColor = UIColor.blue
+            }
         }
 
         presenter.reloadData()

@@ -10,9 +10,17 @@ import Foundation
 
 struct ContactListPresenter {
 
-    let backgroundColorHighlight = true
-
+    var interactor: ContactListInteractor?
+    var backgroundHasChanged: ((Bool) -> Void)?
+    
     func reloadData() {
-        
+        guard let interactor = interactor else {
+            return
+        }
+        interactor.loadDataFromServer { (result) in
+
+            self.backgroundHasChanged!(result)
+
+        }
     }
 }

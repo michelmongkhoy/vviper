@@ -9,5 +9,7 @@
 import Foundation
 
 struct ContactListInteractor {
-
+    func loadDataFromServer(callback: (Bool) -> Void) {
+        callback(true)
+    }
 }
