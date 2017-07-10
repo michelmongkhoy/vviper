@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EEC636FA1F13AC79001ABE67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC636F91F13AC79001ABE67 /* AppDelegate.swift */; };
-		EEC636FC1F13AC79001ABE67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC636FB1F13AC79001ABE67 /* ViewController.swift */; };
 		EEC636FF1F13AC79001ABE67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC636FD1F13AC79001ABE67 /* Main.storyboard */; };
 		EEC637011F13AC79001ABE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC637001F13AC79001ABE67 /* Assets.xcassets */; };
 		EEC637041F13AC79001ABE67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC637021F13AC79001ABE67 /* LaunchScreen.storyboard */; };
@@ -20,7 +19,6 @@
 /* Begin PBXFileReference section */
 		EEC636F61F13AC79001ABE67 /* vviper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vviper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC636F91F13AC79001ABE67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEC636FB1F13AC79001ABE67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EEC636FE1F13AC79001ABE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEC637001F13AC79001ABE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEC637031F13AC79001ABE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				EEC636F91F13AC79001ABE67 /* AppDelegate.swift */,
-				EEC636FB1F13AC79001ABE67 /* ViewController.swift */,
 				EEC636FD1F13AC79001ABE67 /* Main.storyboard */,
 				EEC637001F13AC79001ABE67 /* Assets.xcassets */,
 				EEC637021F13AC79001ABE67 /* LaunchScreen.storyboard */,
@@ -182,7 +179,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC636FC1F13AC79001ABE67 /* ViewController.swift in Sources */,
 				EEC637181F13B5D3001ABE67 /* ContactListPresenter.swift in Sources */,
 				EEC636FA1F13AC79001ABE67 /* AppDelegate.swift in Sources */,
 				EEC637161F13B204001ABE67 /* ContactListVC.swift in Sources */,
