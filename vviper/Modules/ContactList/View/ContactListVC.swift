@@ -11,6 +11,18 @@ import UIKit
 
 class ContactListVC: UITableViewController {
 
+    var presenter: ContactListPresenter?
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        guard let presenter = presenter else {
+            return
+        }
+
+        if (presenter.backgroundColorHighlight) {
+            tableView.backgroundColor = UIColor.blue
+        }
+    }
 
 }

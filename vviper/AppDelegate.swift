@@ -20,6 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let storyboard = UIStoryboard.init(name: "ContactListStoryboard", bundle: nil)
         let vc = storyboard.instantiateInitialViewController()
 
+        guard let contactList = vc as? ContactListVC else {
+            return false
+        }
+
+        let presenter = ContactListPresenter()
+        contactList.presenter = presenter
+
         self.window?.rootViewController = vc
 
         return true

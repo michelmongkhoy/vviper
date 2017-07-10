@@ -80,8 +80,8 @@
 		EEC6370C1F13ACDB001ABE67 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				EEC637191F13B5EB001ABE67 /* Presenter */,
 				EEC6370D1F13AD5C001ABE67 /* View */,
+				EEC637191F13B5EB001ABE67 /* Presenter */,
 			);
 			name = ContactList;
 			path = vviper/Modules/ContactList;
