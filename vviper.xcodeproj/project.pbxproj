@@ -10,7 +10,7 @@
 		2FB3CF8B1F14D9D90091C734 /* ContactDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CF8A1F14D9D90091C734 /* ContactDetailPresenter.swift */; };
 		2FB3CF8D1F14DA080091C734 /* ContactDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CF8C1F14DA080091C734 /* ContactDetailRouter.swift */; };
 		2FB3CF8F1F14DA260091C734 /* ContactDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB3CF8E1F14DA260091C734 /* ContactDetail.storyboard */; };
-		2FB3CF911F14DB4D0091C734 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CF901F14DB4D0091C734 /* ContactDetail.swift */; };
+		2FB3CF911F14DB4D0091C734 /* ContactDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CF901F14DB4D0091C734 /* ContactDetailVC.swift */; };
 		2FB3CF9A1F150D2E0091C734 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CF991F150D2E0091C734 /* RootRouter.swift */; };
 		2FB3CF9C1F150DCB0091C734 /* ContactListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CF9B1F150DCB0091C734 /* ContactListFactory.swift */; };
 		2FB3CFA01F151C230091C734 /* ContactDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CF9F1F151C230091C734 /* ContactDetailInteractor.swift */; };
@@ -29,7 +29,7 @@
 		2FB3CF8A1F14D9D90091C734 /* ContactDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactDetailPresenter.swift; path = vviper/Modules/ContactDetail/Presenter/ContactDetailPresenter.swift; sourceTree = SOURCE_ROOT; };
 		2FB3CF8C1F14DA080091C734 /* ContactDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactDetailRouter.swift; path = vviper/Modules/ContactDetail/Router/ContactDetailRouter.swift; sourceTree = SOURCE_ROOT; };
 		2FB3CF8E1F14DA260091C734 /* ContactDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ContactDetail.storyboard; path = vviper/Modules/ContactDetail/View/ContactDetail.storyboard; sourceTree = SOURCE_ROOT; };
-		2FB3CF901F14DB4D0091C734 /* ContactDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactDetail.swift; path = vviper/Modules/ContactDetail/View/ContactDetail.swift; sourceTree = SOURCE_ROOT; };
+		2FB3CF901F14DB4D0091C734 /* ContactDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactDetailVC.swift; path = vviper/Modules/ContactDetail/View/ContactDetailVC.swift; sourceTree = SOURCE_ROOT; };
 		2FB3CF991F150D2E0091C734 /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		2FB3CF9B1F150DCB0091C734 /* ContactListFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListFactory.swift; path = vviper/ContactListFactory.swift; sourceTree = SOURCE_ROOT; };
 		2FB3CF9F1F151C230091C734 /* ContactDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactDetailInteractor.swift; path = vviper/Modules/ContactDetail/Interactor/ContactDetailInteractor.swift; sourceTree = SOURCE_ROOT; };
@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				2FB3CF8E1F14DA260091C734 /* ContactDetail.storyboard */,
-				2FB3CF901F14DB4D0091C734 /* ContactDetail.swift */,
+				2FB3CF901F14DB4D0091C734 /* ContactDetailVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -269,7 +269,7 @@
 				EEC637181F13B5D3001ABE67 /* ContactListPresenter.swift in Sources */,
 				EEC6371C1F13BAB3001ABE67 /* ContactListInteractor.swift in Sources */,
 				EEC637211F13C5E2001ABE67 /* ContactListRouter.swift in Sources */,
-				2FB3CF911F14DB4D0091C734 /* ContactDetail.swift in Sources */,
+				2FB3CF911F14DB4D0091C734 /* ContactDetailVC.swift in Sources */,
 				2FB3CF8D1F14DA080091C734 /* ContactDetailRouter.swift in Sources */,
 				2FB3CFA01F151C230091C734 /* ContactDetailInteractor.swift in Sources */,
 				2FB3CF9A1F150D2E0091C734 /* RootRouter.swift in Sources */,
