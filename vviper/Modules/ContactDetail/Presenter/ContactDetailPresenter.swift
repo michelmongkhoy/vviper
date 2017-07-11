@@ -10,4 +10,10 @@ import Foundation
 
 class ContactDetailPresenter {
     
+    var dataHasChanged: ((String) -> Void)?
+    
+    func reloadData() {
+        
+    }
+    
 }
