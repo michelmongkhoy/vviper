@@ -17,20 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
-        let storyboard = UIStoryboard.init(name: "ContactListStoryboard", bundle: nil)
-        let vc = storyboard.instantiateInitialViewController()
-
-        guard let contactListVC = vc as? ContactListVC else {
-            return false
-        }
-
-        let router = ContactListRouter()
-        let interactor = ContactListInteractor(router: router)
-
-        let presenter = ContactListPresenter(interactor: interactor, dataHasChanged: nil)
-        contactListVC.presenter = presenter
-
-        self.window?.rootViewController = vc
+        let rootRouter = RootRouter()
+        
+        rootRouter.presentContactList(inWindow: self.window)
 
         return true
     }
