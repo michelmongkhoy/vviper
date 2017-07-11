@@ -15,10 +15,9 @@
 		2FB3CF9C1F150DCB0091C734 /* ContactListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CF9B1F150DCB0091C734 /* ContactListFactory.swift */; };
 		2FB3CFA01F151C230091C734 /* ContactDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CF9F1F151C230091C734 /* ContactDetailInteractor.swift */; };
 		2FB3CFA21F1525BD0091C734 /* ContactDetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CFA11F1525BD0091C734 /* ContactDetailFactory.swift */; };
+		2FB3CFA81F15750C0091C734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB3CFA71F15750C0091C734 /* LaunchScreen.storyboard */; };
 		EEC636FA1F13AC79001ABE67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC636F91F13AC79001ABE67 /* AppDelegate.swift */; };
-		EEC636FF1F13AC79001ABE67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC636FD1F13AC79001ABE67 /* Main.storyboard */; };
 		EEC637011F13AC79001ABE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC637001F13AC79001ABE67 /* Assets.xcassets */; };
-		EEC637041F13AC79001ABE67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC637021F13AC79001ABE67 /* LaunchScreen.storyboard */; };
 		EEC637141F13AFC0001ABE67 /* ContactList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC637131F13AFC0001ABE67 /* ContactList.storyboard */; };
 		EEC637161F13B204001ABE67 /* ContactListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC637151F13B204001ABE67 /* ContactListVC.swift */; };
 		EEC637181F13B5D3001ABE67 /* ContactListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC637171F13B5D3001ABE67 /* ContactListPresenter.swift */; };
@@ -35,11 +34,10 @@
 		2FB3CF9B1F150DCB0091C734 /* ContactListFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListFactory.swift; path = vviper/Modules/ContactList/ContactListFactory.swift; sourceTree = SOURCE_ROOT; };
 		2FB3CF9F1F151C230091C734 /* ContactDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactDetailInteractor.swift; path = vviper/Modules/ContactDetail/ContactDetailInteractor.swift; sourceTree = SOURCE_ROOT; };
 		2FB3CFA11F1525BD0091C734 /* ContactDetailFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactDetailFactory.swift; path = vviper/Modules/ContactDetail/ContactDetailFactory.swift; sourceTree = SOURCE_ROOT; };
+		2FB3CFA71F15750C0091C734 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEC636F61F13AC79001ABE67 /* vviper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vviper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC636F91F13AC79001ABE67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEC636FE1F13AC79001ABE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEC637001F13AC79001ABE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EEC637031F13AC79001ABE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEC637051F13AC79001ABE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEC637131F13AFC0001ABE67 /* ContactList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ContactList.storyboard; path = vviper/Modules/ContactList/View/ContactList.storyboard; sourceTree = SOURCE_ROOT; };
 		EEC637151F13B204001ABE67 /* ContactListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListVC.swift; path = vviper/Modules/ContactList/View/ContactListVC.swift; sourceTree = SOURCE_ROOT; };
@@ -81,6 +79,24 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		2FB3CFA51F1573290091C734 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3CF991F150D2E0091C734 /* RootRouter.swift */,
+				EEC636F91F13AC79001ABE67 /* AppDelegate.swift */,
+				2FB3CFA71F15750C0091C734 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2FB3CFA61F1573470091C734 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EEC637001F13AC79001ABE67 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		EEC636ED1F13AC79001ABE67 = {
 			isa = PBXGroup;
 			children = (
@@ -100,13 +116,10 @@
 		EEC636F81F13AC79001ABE67 /* vviper */ = {
 			isa = PBXGroup;
 			children = (
-				EEC6370B1F13ACA5001ABE67 /* Modules */,
-				EEC636F91F13AC79001ABE67 /* AppDelegate.swift */,
-				EEC636FD1F13AC79001ABE67 /* Main.storyboard */,
-				EEC637001F13AC79001ABE67 /* Assets.xcassets */,
-				EEC637021F13AC79001ABE67 /* LaunchScreen.storyboard */,
 				EEC637051F13AC79001ABE67 /* Info.plist */,
-				2FB3CF991F150D2E0091C734 /* RootRouter.swift */,
+				EEC6370B1F13ACA5001ABE67 /* Modules */,
+				2FB3CFA61F1573470091C734 /* Assets */,
+				2FB3CFA51F1573290091C734 /* Application */,
 			);
 			path = vviper;
 			sourceTree = "<group>";
@@ -202,9 +215,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC637041F13AC79001ABE67 /* LaunchScreen.storyboard in Resources */,
 				EEC637011F13AC79001ABE67 /* Assets.xcassets in Resources */,
-				EEC636FF1F13AC79001ABE67 /* Main.storyboard in Resources */,
+				2FB3CFA81F15750C0091C734 /* LaunchScreen.storyboard in Resources */,
 				EEC637141F13AFC0001ABE67 /* ContactList.storyboard in Resources */,
 				2FB3CF8F1F14DA260091C734 /* ContactDetail.storyboard in Resources */,
 			);
@@ -233,25 +245,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		EEC636FD1F13AC79001ABE67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEC636FE1F13AC79001ABE67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EEC637021F13AC79001ABE67 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEC637031F13AC79001ABE67 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EEC637061F13AC79001ABE67 /* Debug */ = {
