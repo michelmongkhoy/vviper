@@ -28,7 +28,7 @@
 		EEC637131F13AFC0001ABE67 /* ContactListStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ContactListStoryboard.storyboard; path = vviper/Modules/ContactList/View/ContactListStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
 		EEC637151F13B204001ABE67 /* ContactListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListVC.swift; path = vviper/Modules/ContactList/View/ContactListVC.swift; sourceTree = SOURCE_ROOT; };
 		EEC637171F13B5D3001ABE67 /* ContactListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListPresenter.swift; path = vviper/Modules/ContactList/Presenter/ContactListPresenter.swift; sourceTree = SOURCE_ROOT; };
-		EEC6371B1F13BAB3001ABE67 /* ContactListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListInteractor.swift; path = Interactor/ContactListInteractor.swift; sourceTree = SOURCE_ROOT; };
+		EEC6371B1F13BAB3001ABE67 /* ContactListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListInteractor.swift; path = vviper/Modules/ContactList/Interactor/ContactListInteractor.swift; sourceTree = SOURCE_ROOT; };
 		EEC637201F13C5E2001ABE67 /* ContactListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListRouter.swift; path = vviper/Modules/ContactList/Router/ContactListRouter.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -117,7 +117,8 @@
 			children = (
 				EEC6371B1F13BAB3001ABE67 /* ContactListInteractor.swift */,
 			);
-			path = Interactor;
+			name = Interactor;
+			path = vviper/Modules/ContactList/Interactor;
 			sourceTree = "<group>";
 		};
 		EEC637221F13C5F9001ABE67 /* Router */ = {
@@ -368,6 +369,7 @@
 				EEC6370A1F13AC79001ABE67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
