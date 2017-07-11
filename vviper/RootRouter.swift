@@ -13,7 +13,8 @@ class RootRouter {
     
     func presentContactList(inWindow: UIWindow?) {
         let contactListVC = ContactListFactory.initContactListModule()
-        inWindow?.rootViewController = contactListVC
+        let navigationViewController = UINavigationController(rootViewController: contactListVC)
+        inWindow?.rootViewController = navigationViewController
     }
     
 }

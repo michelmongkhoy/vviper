@@ -7,11 +7,17 @@
 //
 
 import Foundation
+import UIKit
 
-struct ContactListPresenter {
+class ContactListPresenter {
 
+    weak var viewController: UIViewController?
+    
     var interactor: ContactListInteractor?
-    var dataHasChanged: (([String]) -> Void)?
+    
+    var router: ContactListRouter?
+    
+    var dataHasChanged: (([String]?) -> Void)?
     
     func reloadData() {
         guard let interactor = interactor else {
@@ -23,7 +29,8 @@ struct ContactListPresenter {
         }
     }
     
-    func presentContactListDitails(cellContent: String) -> Void {
-        print("presentContactListDitails " + cellContent)
+    func presentContactListDetails(contact: String?) {
+        router?.showContactDetails(inViewController: viewController, contact: contact)
     }
+    
 }

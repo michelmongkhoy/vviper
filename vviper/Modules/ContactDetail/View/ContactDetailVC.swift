@@ -14,11 +14,6 @@ class ContactDetailVC: UIViewController {
     @IBOutlet weak var contactLabel: UILabel?
     
     var presenter: ContactDetailPresenter?
-    func subscriptionDataHasChanged(title: String) -> Void {
-    
-        self.contactLabel?.text = title
-        
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,5 +25,11 @@ class ContactDetailVC: UIViewController {
         presenter.dataHasChanged = subscriptionDataHasChanged
         
         presenter.reloadData()
+    }
+    
+    // MARK: SUBSCRIPTIONS CALLBACK
+    
+    func subscriptionDataHasChanged(title: String?) -> Void {
+        self.contactLabel?.text = title
     }
 }

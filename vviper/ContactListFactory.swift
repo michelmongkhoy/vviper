@@ -16,9 +16,13 @@ class ContactListFactory {
         let contactListVC = storyboard.instantiateInitialViewController() as! ContactListVC
         
         let router = ContactListRouter()
-        let interactor = ContactListInteractor(router: router)
+        let interactor = ContactListInteractor()
         
-        let presenter = ContactListPresenter(interactor: interactor, dataHasChanged: nil)
+        let presenter = ContactListPresenter()
+        presenter.interactor = interactor
+        presenter.router = router
+        presenter.viewController = contactListVC
+        
         contactListVC.presenter = presenter
         
         return contactListVC

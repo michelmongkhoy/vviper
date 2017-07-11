@@ -9,11 +9,5 @@
 import Foundation
 
 class ContactDetailInteractor {
-    var router: ContactListRouter?
     
-    let table = ["Michel", "Blazej", "Alain", "Guillaume", "Xavier"]
-    
-    func loadDataFromServer(id: Int, callback: (String) -> Void) {
-        callback(table[id])
-    }
 }

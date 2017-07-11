@@ -7,20 +7,21 @@
 //
 
 import Foundation
+import UIKit
 
 class ContactDetailPresenter {
     
     var interactor: ContactDetailInteractor?
-    var dataHasChanged: ((String) -> Void)?
+    
+    weak var viewController: UIViewController?
+    
+    var router: ContactDetailRouter?
+    
+    var contact: String?
+    
+    var dataHasChanged: ((String?) -> Void)?
     
     func reloadData() {
-        
-        guard let interactor = interactor else {
-            return
-        }
-        
-        interactor.loadDataFromServer(id: 1, callback: { (result) in
-            self.dataHasChanged!(result)
-        })
+        dataHasChanged!(contact)
     }
 }

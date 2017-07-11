@@ -7,14 +7,13 @@
 //
 
 import Foundation
+import UIKit
 
 struct ContactListInteractor {
-
-    var router: ContactListRouter?
     
     let table = ["Michel", "Blazej", "Alain", "Guillaume", "Xavier"]
     
-    func loadDataFromServer(callback: ([String]) -> Void) {
+    func loadDataFromServer(callback: ([String]?) -> Void) {
         callback(table)
     }
 }
