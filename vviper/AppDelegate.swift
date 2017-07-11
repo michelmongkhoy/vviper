@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let router = ContactListRouter()
         let interactor = ContactListInteractor(router: router)
 
-        let presenter = ContactListPresenter(interactor: interactor, backgroundHasChanged: nil)
+        let presenter = ContactListPresenter(interactor: interactor, dataHasChanged: nil)
         contactListVC.presenter = presenter
 
         self.window?.rootViewController = vc

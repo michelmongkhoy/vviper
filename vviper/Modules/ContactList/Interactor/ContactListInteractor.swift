@@ -12,7 +12,9 @@ struct ContactListInteractor {
 
     var router: ContactListRouter?
     
-    func loadDataFromServer(callback: (Bool) -> Void) {
-        callback(true)
+    let table = ["Michel", "Blazej", "Alain", "Guillaume", "Xavier"]
+    
+    func loadDataFromServer(callback: ([String]) -> Void) {
+        callback(table)
     }
 }

@@ -11,16 +11,19 @@ import Foundation
 struct ContactListPresenter {
 
     var interactor: ContactListInteractor?
-    var backgroundHasChanged: ((Bool) -> Void)?
+    var dataHasChanged: (([String]) -> Void)?
     
     func reloadData() {
         guard let interactor = interactor else {
             return
         }
+        
         interactor.loadDataFromServer { (result) in
-
-            self.backgroundHasChanged!(result)
-
+            self.dataHasChanged!(result)
         }
+    }
+    
+    func presentContactListDitails(cellContent: String) -> Void {
+        print("presentContactListDitails " + cellContent)
     }
 }
