@@ -14,13 +14,13 @@ class ContactDetailPresenter {
     var dataHasChanged: ((String) -> Void)?
     
     func reloadData() {
-        /*
+        
         guard let interactor = interactor else {
             return
         }
         
-        interactor.loadDataFromServer { (result) in
+        interactor.loadDataFromServer(id: 1, callback: { (result) in
             self.dataHasChanged!(result)
-        }*/
+        })
     }
 }
