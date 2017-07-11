@@ -12,7 +12,7 @@ import UIKit
 class ContactListFactory {
     
     static func initContactListModule() -> UIViewController {
-        let storyboard = UIStoryboard.init(name: "ContactListStoryboard", bundle: nil)
+        let storyboard = UIStoryboard.init(name: "ContactList", bundle: nil)
         let contactListVC = storyboard.instantiateInitialViewController() as! ContactListVC
         
         let router = ContactListRouter()
