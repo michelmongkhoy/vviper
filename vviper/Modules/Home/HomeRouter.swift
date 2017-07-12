@@ -6,4 +6,11 @@
 //  Copyright © 2017 Viadeo. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class HomeRouter {
+    
+    weak var inViewController: UIViewController?
+    
+    
+}

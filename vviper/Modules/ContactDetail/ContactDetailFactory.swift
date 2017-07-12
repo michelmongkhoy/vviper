@@ -12,7 +12,7 @@ import UIKit
 
 class ContactDetailFactory {
     
-    static func initContactDetailModule(contact: String?) -> UIViewController {
+    static func initContactDetailModule(contact: String?) -> ContactDetailVC {
         
         let storyboard = UIStoryboard.init(name: "ContactDetail", bundle: nil)
         let contactDetailVC = storyboard.instantiateInitialViewController() as! ContactDetailVC

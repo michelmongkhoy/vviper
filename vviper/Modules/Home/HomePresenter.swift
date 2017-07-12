@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class HomePresenter {
+    
+    var interactor: HomeInteractor?
+    var router: HomeRouter?
+    
+    
+}
