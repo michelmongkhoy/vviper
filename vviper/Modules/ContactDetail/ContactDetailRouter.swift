@@ -7,7 +7,15 @@
 //
 
 import Foundation
+import UIKit
 
 class ContactDetailRouter {
+    
+    weak var inViewController: UIViewController?
+    
+    func showContactListForMember(member: String?) {
+        let contactListVC = ContactListFactory.initContactListModule(member: member)
+        inViewController?.navigationController?.pushViewController(contactListVC, animated: true)
+    }
     
 }

@@ -17,11 +17,15 @@ class ContactDetailPresenter {
     
     var router: ContactDetailRouter?
     
-    var contact: String?
+    var member: String?
     
     var dataHasChanged: ((String?) -> Void)?
     
     func reloadData() {
-        dataHasChanged!(contact)
+        dataHasChanged!(member)
+    }
+    
+    func presentContactListForMember() {
+        router?.showContactListForMember(member: member)
     }
 }

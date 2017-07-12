@@ -9,9 +9,11 @@
 import Foundation
 import UIKit
 
-struct ContactListRouter {
+class ContactListRouter {
+    
+    weak var inViewController: UIViewController?
 
-    func showContactDetails(inViewController: UIViewController?, contact: String?) {
+    func showContactDetails(contact: String?) {
         let contactDetailVC = ContactDetailFactory.initContactDetailModule(contact: contact)
         inViewController?.navigationController?.pushViewController(contactDetailVC, animated: true)
     }

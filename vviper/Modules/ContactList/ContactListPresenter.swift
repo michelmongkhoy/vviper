@@ -10,12 +10,12 @@ import Foundation
 import UIKit
 
 class ContactListPresenter {
-
-    weak var viewController: UIViewController?
     
     var interactor: ContactListInteractor?
     
     var router: ContactListRouter?
+    
+    var member: String?
     
     var dataHasChanged: (([String]?) -> Void)?
     
@@ -24,13 +24,13 @@ class ContactListPresenter {
             return
         }
         
-        interactor.loadDataFromServer { (result) in
+        interactor.loadDataFromServer(member: member) { (result) in
             self.dataHasChanged!(result)
         }
     }
     
     func presentContactListDetails(contact: String?) {
-        router?.showContactDetails(inViewController: viewController, contact: contact)
+        router?.showContactDetails(contact: contact)
     }
     
 }

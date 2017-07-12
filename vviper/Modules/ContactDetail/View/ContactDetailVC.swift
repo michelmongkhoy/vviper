@@ -13,6 +13,8 @@ class ContactDetailVC: UIViewController {
     
     @IBOutlet weak var contactLabel: UILabel?
     
+    @IBOutlet weak var constactsButton: UIButton?
+    
     var presenter: ContactDetailPresenter?
     
     override func viewDidLoad() {
@@ -25,6 +27,10 @@ class ContactDetailVC: UIViewController {
         presenter.dataHasChanged = subscriptionDataHasChanged
         
         presenter.reloadData()
+    }
+    
+    @IBAction func goToContactList(_ sender: Any) {
+        presenter?.presentContactListForMember()
     }
     
     // MARK: SUBSCRIPTIONS CALLBACK

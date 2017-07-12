@@ -11,17 +11,20 @@ import UIKit
 
 class ContactListFactory {
     
-    static func initContactListModule() -> UIViewController {
+    static func initContactListModule(member: String?) -> UIViewController {
+        
         let storyboard = UIStoryboard.init(name: "ContactList", bundle: nil)
         let contactListVC = storyboard.instantiateInitialViewController() as! ContactListVC
         
-        let router = ContactListRouter()
         let interactor = ContactListInteractor()
+        
+        let router = ContactListRouter()
+        router.inViewController = contactListVC
         
         let presenter = ContactListPresenter()
         presenter.interactor = interactor
         presenter.router = router
-        presenter.viewController = contactListVC
+        presenter.member = member
         
         contactListVC.presenter = presenter
         

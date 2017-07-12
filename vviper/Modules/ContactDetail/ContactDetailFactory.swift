@@ -13,6 +13,7 @@ import UIKit
 class ContactDetailFactory {
     
     static func initContactDetailModule(contact: String?) -> UIViewController {
+        
         let storyboard = UIStoryboard.init(name: "ContactDetail", bundle: nil)
         let contactDetailVC = storyboard.instantiateInitialViewController() as! ContactDetailVC
         
@@ -23,7 +24,7 @@ class ContactDetailFactory {
         presenter.interactor = interactor
         presenter.router = router
         presenter.viewController = contactDetailVC
-        presenter.contact = contact
+        presenter.member = contact
         
         contactDetailVC.presenter = presenter
         
