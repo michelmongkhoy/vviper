@@ -18,6 +18,7 @@ class ContactDetailFactory {
         let contactDetailVC = storyboard.instantiateInitialViewController() as! ContactDetailVC
         
         let router = ContactDetailRouter()
+        router.inViewController = contactDetailVC
         let interactor = ContactDetailInteractor()
         
         let presenter = ContactDetailPresenter()
