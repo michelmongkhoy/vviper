@@ -6,4 +6,8 @@
 //  Copyright © 2017 Viadeo. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Home2VC: UITabBarController {
+    
+}
