@@ -16,8 +16,11 @@ class RootRouter {
 //        let navigationViewController = UINavigationController(rootViewController: contactListVC)
 //        inWindow?.rootViewController = navigationViewController
         
-        let HomeVC = HomeFactory.create()
-        inWindow?.rootViewController = HomeVC
+//        let HomeVC = HomeFactory.create()
+//        inWindow?.rootViewController = HomeVC
+        
+        let jobListVC = JobListVC()
+        inWindow?.rootViewController = jobListVC
     }
     
 }
