@@ -8,6 +8,39 @@
 
 import UIKit
 
-class Home2VC: UITabBarController {
+class Home2VC: UITabBarController, UITabBarControllerDelegate {
     
+    weak var jobListVC: JobListVC?
+    weak var jobFavoriteListVC: JobFavoriteListVC?
+    
+    var presenter: Home2Presenter?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        //Assign self for delegate for that ViewController can respond to UITabBarControllerDelegate methods
+        self.delegate = self
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let tabOneBarItem = UITabBarItem(title: "Tab 1", image: UIImage(named: "defaultImage.png"), selectedImage: UIImage(named: "selectedImage.png"))
+        
+        jobListVC?.tabBarItem = tabOneBarItem
+        
+        
+        // Create Tab two
+        let tabTwoBarItem2 = UITabBarItem(title: "Tab 2", image: UIImage(named: "defaultImage2.png"), selectedImage: UIImage(named: "selectedImage2.png"))
+        
+        jobFavoriteListVC?.tabBarItem = tabTwoBarItem2
+        
+        
+        self.viewControllers = [jobListVC!, jobFavoriteListVC!]
+    }
+    
+    override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        print("coucou")
+    }
 }

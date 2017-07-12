@@ -10,8 +10,22 @@ import UIKit
 
 class JobListFactory {
     
-    static func create() -> UIViewController {
+    static func create() -> JobListVC {
         
-        return UIViewController()
+        let storyboard = UIStoryboard.init(name: "JobList", bundle: nil)
+        let vc = storyboard.instantiateInitialViewController() as! JobListVC
+        
+        let router = JobListRouter()
+        router.inViewController = vc
+        
+        let interactor = JobListInteractor()
+        
+        let presenter = JobListPresenter()
+        presenter.interactor = interactor
+        presenter.router = router
+
+        vc.presenter = presenter
+        
+        return vc
     }
 }

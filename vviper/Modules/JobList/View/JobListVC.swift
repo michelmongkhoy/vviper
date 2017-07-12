@@ -13,6 +13,8 @@ class JobListVC: UIViewController, UITableViewDelegate, UITableViewDataSource  {
     
     @IBOutlet var viewTable: UITableView?
     
+    var presenter: JobListPresenter?
+    
     let dataSource = ["Job1", "Job2", "Job3"]
     
     override func viewDidLoad() {

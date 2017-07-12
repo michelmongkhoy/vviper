@@ -10,4 +10,7 @@ import Foundation
 
 class Home2Presenter {
     
+    var interactor: Home2Interactor?
+    var router: Home2Router?
+    
 }

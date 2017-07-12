@@ -10,9 +10,22 @@ import UIKit
 
 class JobFavoriteListFactory {
     
-    static func create() -> UIViewController {
+    static func create() -> JobFavoriteListVC {
         
+        let storyboard = UIStoryboard.init(name: "JobFavoriteList", bundle: nil)
+        let vc = storyboard.instantiateInitialViewController() as! JobFavoriteListVC
         
-        return UIViewController()
+        let router = JobFavoriteListRouter()
+        router.inViewController = vc
+        
+        let interactor = JobFavoriteListInteractor()
+        
+        let presenter = JobFavoriteListPresenter()
+        presenter.interactor = interactor
+        presenter.router = router
+        
+        vc.presenter = presenter
+        
+        return vc
     }
 }
