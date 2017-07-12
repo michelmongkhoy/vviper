@@ -12,6 +12,9 @@ import UIKit
 class RootRouter {
     
     func presentContactList(inWindow: UIWindow?) {
+        
+        // CASE 1 : Show the first HOME example
+
 //        let contactListVC = ContactListFactory.initContactListModule(member: nil)
 //        let navigationViewController = UINavigationController(rootViewController: contactListVC)
 //        inWindow?.rootViewController = navigationViewController
@@ -19,8 +22,10 @@ class RootRouter {
 //        let HomeVC = HomeFactory.create()
 //        inWindow?.rootViewController = HomeVC
         
-        let jobListVC = JobListVC()
-        inWindow?.rootViewController = jobListVC
+        // CASE 2 : Showing the Favorite example
+        
+        let vc = Home2Factory.create()
+        inWindow?.rootViewController = vc
     }
     
 }

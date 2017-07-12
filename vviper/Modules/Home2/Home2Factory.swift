@@ -6,8 +6,13 @@
 //  Copyright © 2017 Viadeo. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class Home2Factory {
-    
+
+    static func create() -> UIViewController {
+        let vc = UIViewController()
+        vc.view.backgroundColor = UIColor.red
+        return vc
+    }
 }
