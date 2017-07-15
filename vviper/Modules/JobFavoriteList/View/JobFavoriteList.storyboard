@@ -29,7 +29,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bcQ-Vi-pKY" id="bxF-6u-BFD">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -49,7 +49,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="viewTable" destination="zdl-w4-WjQ" id="pk1-SS-N48"/>
+                        <outlet property="tableView" destination="zdl-w4-WjQ" id="mD7-y2-XyR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kfP-VJ-h6p" userLabel="First Responder" sceneMemberID="firstResponder"/>

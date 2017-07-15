@@ -41,7 +41,7 @@ class JobListVC: UIViewController, UITableViewDelegate, UITableViewDataSource  {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        self.presenter?.saveFavorite(withJobName: self.dataSource[indexPath.row])
     }
     
 }

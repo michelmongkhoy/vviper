@@ -13,5 +13,8 @@ class JobListPresenter {
     var interactor: JobListInteractor?
     var router: JobListRouter?
     
+    func saveFavorite(withJobName name:String) -> Void {
+        self.interactor?.saveFavorite(withJobName: name)
+    }
     
 }

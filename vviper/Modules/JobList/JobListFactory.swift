@@ -17,7 +17,7 @@ class JobListFactory {
         
         let router = JobListRouter()
         router.inViewController = vc
-        
+                
         let interactor = JobListInteractor()
         
         let presenter = JobListPresenter()

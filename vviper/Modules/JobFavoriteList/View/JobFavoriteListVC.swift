@@ -11,15 +11,25 @@ import UIKit
 
 class JobFavoriteListVC: UIViewController, UITableViewDelegate, UITableViewDataSource  {
     
-    @IBOutlet var viewTable: UITableView?
+    @IBOutlet weak var tableView: UITableView!
     
     var presenter: JobFavoriteListPresenter?
     
-    let dataSource = ["Job1", "Job2", "Job3"]
+    var table: [String]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        guard let presenter = presenter else {
+            return
+        }
+        
+        // Subscriptions
+        presenter.reload = subscriptionDataHasChanged
+        
+        if let datas = self.presenter?.loadDatas() {
+            self.table = datas
+        }
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -27,21 +37,22 @@ class JobFavoriteListVC: UIViewController, UITableViewDelegate, UITableViewDataS
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.dataSource.count
+        guard let dataSource = self.table else {
+            return 0
+        }
+        return dataSource.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        
-        cell.textLabel?.text = self.dataSource[indexPath.row]
-        
+        cell.textLabel?.text = self.table?[indexPath.row]
         return cell
-        
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-    }
+    // MARK: SUBSCRIPTIONS CALLBACK
     
+    func subscriptionDataHasChanged(result:[String]?) -> Void {
+        self.table = result
+        self.tableView?.reloadData()
+    }
 }

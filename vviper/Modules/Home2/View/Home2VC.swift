@@ -15,14 +15,6 @@ class Home2VC: UITabBarController, UITabBarControllerDelegate {
     
     var presenter: Home2Presenter?
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        //Assign self for delegate for that ViewController can respond to UITabBarControllerDelegate methods
-        self.delegate = self
-        
-    }
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         

@@ -19,13 +19,14 @@ class JobFavoriteListFactory {
         router.inViewController = vc
         
         let interactor = JobFavoriteListInteractor()
+        let presenter = JobFavoriteListPresenter(interactor: interactor)
+        interactor.presenter = presenter
         
-        let presenter = JobFavoriteListPresenter()
         presenter.interactor = interactor
         presenter.router = router
         
         vc.presenter = presenter
-        
+
         return vc
     }
 }

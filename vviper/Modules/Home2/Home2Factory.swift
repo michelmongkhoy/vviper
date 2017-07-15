@@ -20,6 +20,9 @@ class Home2Factory {
         
         home2VC.jobListVC = jobListVC
         home2VC.jobFavoriteListVC = jobFavoriteListVC
+
+        home2VC.addChildViewController(jobListVC)
+        home2VC.addChildViewController(jobFavoriteListVC)
         
         let router = Home2Router()
         router.inViewController = home2VC
@@ -35,4 +38,5 @@ class Home2Factory {
         return home2VC
 
     }
+    
 }

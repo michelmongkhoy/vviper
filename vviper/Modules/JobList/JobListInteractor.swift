@@ -10,4 +10,14 @@ import Foundation
 
 class JobListInteractor {
     
+    let jobOfferFavoriteUseCase: JobOfferFavoriteUseCase
+    
+    init() {
+        self.jobOfferFavoriteUseCase = JobOfferFavoriteUseCase()
+    }
+    
+    func saveFavorite(withJobName jobName:String) -> Void {
+        self.jobOfferFavoriteUseCase.saveJobOfferFavorite(withJobName: jobName)
+    }
+    
 }

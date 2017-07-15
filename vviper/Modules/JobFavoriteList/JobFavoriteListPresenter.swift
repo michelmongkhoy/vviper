@@ -10,8 +10,15 @@ import Foundation
 
 class JobFavoriteListPresenter {
     
-    var interactor: JobFavoriteListInteractor?
+    var interactor: JobFavoriteListInteractor
     var router: JobFavoriteListRouter?
+    var reload: (([String]?) -> Void)?
     
+    init(interactor: JobFavoriteListInteractor) {
+        self.interactor = interactor
+    }
     
+    func loadDatas() -> [String]? {
+        return interactor.getJobOfferFavorites()
+    }
 }
