@@ -8,6 +8,8 @@
 
 import XCTest
 
+import Mockit
+
 @testable import vviper
 
 class JobListInteractorTest: XCTestCase {
@@ -16,7 +18,7 @@ class JobListInteractorTest: XCTestCase {
     override func setUp() {
         super.setUp()
         self.jobListInteractor = JobListInteractor()
-        
+     Mockit
     }
     
     func testJobListSaveFavoriteMethod() {

@@ -42,7 +42,6 @@
 		2FB3CFA01F151C230091C734 /* ContactDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CF9F1F151C230091C734 /* ContactDetailInteractor.swift */; };
 		2FB3CFA21F1525BD0091C734 /* ContactDetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CFA11F1525BD0091C734 /* ContactDetailFactory.swift */; };
 		2FB3CFA81F15750C0091C734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB3CFA71F15750C0091C734 /* LaunchScreen.storyboard */; };
-		552B5335AE8F90F056BFB324 /* Pods_vviper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DA5539EF66C9031BA23002 /* Pods_vviper.framework */; };
 		AA1290CA18CB0CE7DE6EFB76 /* Pods_vviperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FBB1682EEBB3BEF01577CD /* Pods_vviperTests.framework */; };
 		EEC636FA1F13AC79001ABE67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC636F91F13AC79001ABE67 /* AppDelegate.swift */; };
 		EEC637011F13AC79001ABE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC637001F13AC79001ABE67 /* Assets.xcassets */; };
@@ -52,8 +51,10 @@
 		EEC6371C1F13BAB3001ABE67 /* ContactListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6371B1F13BAB3001ABE67 /* ContactListInteractor.swift */; };
 		EEC637211F13C5E2001ABE67 /* ContactListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC637201F13C5E2001ABE67 /* ContactListRouter.swift */; };
 		FF2723651F1D03F70067CF45 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FF2723641F1D03F70067CF45 /* Podfile */; };
+		FF55B0091F1D08A600DDC120 /* Pods_vviper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DA5539EF66C9031BA23002 /* Pods_vviper.framework */; };
+		FFA55A761F1D0A230044FCB3 /* Pods_vviper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DA5539EF66C9031BA23002 /* Pods_vviper.framework */; };
+		FFA55A781F1D0B010044FCB3 /* Mockit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA55A771F1D0B010044FCB3 /* Mockit.framework */; };
 		FFB55B3A1F1CF2DC001EF619 /* JobListFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB55B391F1CF2DC001EF619 /* JobListFactoryTest.swift */; };
-		FFB55B3D1F1CF52A001EF619 /* JobListInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB55B3C1F1CF52A001EF619 /* JobListInteractorTest.swift */; };
 		FFB55B3E1F1CFA8A001EF619 /* JobOfferFavoriteUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D911F17A06B00000D98 /* JobOfferFavoriteUseCase.swift */; };
 		FFF2CDBC1F1CB6F7004F3A95 /* Home2FactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2CDBB1F1CB6F7004F3A95 /* Home2FactoryTest.swift */; };
 		FFF2CDBE1F1CB8DC004F3A95 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D561F16235900000D98 /* HomeFactory.swift */; };
@@ -123,6 +124,7 @@
 		EEC637201F13C5E2001ABE67 /* ContactListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListRouter.swift; path = vviper/Modules/ContactList/ContactListRouter.swift; sourceTree = SOURCE_ROOT; };
 		F1FBB1682EEBB3BEF01577CD /* Pods_vviperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vviperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2723641F1D03F70067CF45 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FFA55A771F1D0B010044FCB3 /* Mockit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mockit.framework; path = "Pods/../build/Debug-iphoneos/Mockit/Mockit.framework"; sourceTree = "<group>"; };
 		FFB55B391F1CF2DC001EF619 /* JobListFactoryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobListFactoryTest.swift; sourceTree = "<group>"; };
 		FFB55B3C1F1CF52A001EF619 /* JobListInteractorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobListInteractorTest.swift; sourceTree = "<group>"; };
 		FFF2CDB11F1CB693004F3A95 /* vviperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vviperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552B5335AE8F90F056BFB324 /* Pods_vviper.framework in Frameworks */,
+				FFA55A761F1D0A230044FCB3 /* Pods_vviper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA55A781F1D0B010044FCB3 /* Mockit.framework in Frameworks */,
+				FF55B0091F1D08A600DDC120 /* Pods_vviper.framework in Frameworks */,
 				AA1290CA18CB0CE7DE6EFB76 /* Pods_vviperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +317,7 @@
 		44E08160AA08948E2FFC97F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FFA55A771F1D0B010044FCB3 /* Mockit.framework */,
 				52DA5539EF66C9031BA23002 /* Pods_vviper.framework */,
 				F1FBB1682EEBB3BEF01577CD /* Pods_vviperTests.framework */,
 			);
@@ -687,7 +692,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB55B3D1F1CF52A001EF619 /* JobListInteractorTest.swift in Sources */,
 				FFF2CDBC1F1CB6F7004F3A95 /* Home2FactoryTest.swift in Sources */,
 				FFB55B3A1F1CF2DC001EF619 /* JobListFactoryTest.swift in Sources */,
 			);
@@ -831,6 +835,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 43VBDTY4E3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Mockit",
+				);
 				INFOPLIST_FILE = vviperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blazejsleboda.vviperTests;
@@ -846,6 +854,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 43VBDTY4E3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Mockit",
+				);
 				INFOPLIST_FILE = vviperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blazejsleboda.vviperTests;
