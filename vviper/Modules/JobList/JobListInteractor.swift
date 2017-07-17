@@ -10,7 +10,7 @@ import Foundation
 
 class JobListInteractor {
     
-    let jobOfferFavoriteUseCase: JobOfferFavoriteUseCase
+    var jobOfferFavoriteUseCase: JobOfferFavoriteUseCase
     
     init() {
         self.jobOfferFavoriteUseCase = JobOfferFavoriteUseCase()

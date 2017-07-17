@@ -15,6 +15,8 @@ class JobListFactory {
         let storyboard = UIStoryboard.init(name: "JobList", bundle: nil)
         let vc = storyboard.instantiateInitialViewController() as! JobListVC
         
+        
+        
         let router = JobListRouter()
         router.inViewController = vc
                 

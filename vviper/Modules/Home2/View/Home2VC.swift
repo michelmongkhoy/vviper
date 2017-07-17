@@ -13,6 +13,8 @@ class Home2VC: UITabBarController, UITabBarControllerDelegate {
     weak var jobListVC: JobListVC?
     weak var jobFavoriteListVC: JobFavoriteListVC?
     
+    
+    
     var presenter: Home2Presenter?
     
     override func viewWillAppear(_ animated: Bool) {
@@ -34,5 +36,24 @@ class Home2VC: UITabBarController, UITabBarControllerDelegate {
     
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
         print("coucou")
+    }
+    
+    static func create() -> JobListVC {
+        
+        let storyboard = UIStoryboard.init(name: "JobList", bundle: nil)
+        let vc = storyboard.instantiateInitialViewController() as! JobListVC
+        
+        let router = JobListRouter()
+        router.inViewController = vc
+        
+        let interactor = JobListInteractor()
+        
+        let presenter = JobListPresenter()
+        presenter.interactor = interactor
+        presenter.router = router
+        
+        vc.presenter = presenter
+        
+        return vc
     }
 }

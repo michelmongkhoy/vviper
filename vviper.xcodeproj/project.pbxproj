@@ -31,7 +31,6 @@
 		2F1B3D7F1F16594900000D98 /* Home2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1B3D7E1F16594900000D98 /* Home2.storyboard */; };
 		2F1B3D811F16595E00000D98 /* Home2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D801F16595E00000D98 /* Home2VC.swift */; };
 		2F1B3D8E1F1770BE00000D98 /* JobOfferFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D891F1770BE00000D98 /* JobOfferFavorite.swift */; };
-		2F1B3D921F17A06B00000D98 /* JobOfferFavoriteUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D911F17A06B00000D98 /* JobOfferFavoriteUseCase.swift */; };
 		2F1B3D941F17A15900000D98 /* JobOfferFavoriteAddEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D931F17A15900000D98 /* JobOfferFavoriteAddEvent.swift */; };
 		2F1B3D961F17B3E100000D98 /* JobOfferFavoriteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D951F17B3E100000D98 /* JobOfferFavoriteStore.swift */; };
 		2FB3CF8B1F14D9D90091C734 /* ContactDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CF8A1F14D9D90091C734 /* ContactDetailPresenter.swift */; };
@@ -43,6 +42,8 @@
 		2FB3CFA01F151C230091C734 /* ContactDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CF9F1F151C230091C734 /* ContactDetailInteractor.swift */; };
 		2FB3CFA21F1525BD0091C734 /* ContactDetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3CFA11F1525BD0091C734 /* ContactDetailFactory.swift */; };
 		2FB3CFA81F15750C0091C734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB3CFA71F15750C0091C734 /* LaunchScreen.storyboard */; };
+		552B5335AE8F90F056BFB324 /* Pods_vviper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DA5539EF66C9031BA23002 /* Pods_vviper.framework */; };
+		AA1290CA18CB0CE7DE6EFB76 /* Pods_vviperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FBB1682EEBB3BEF01577CD /* Pods_vviperTests.framework */; };
 		EEC636FA1F13AC79001ABE67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC636F91F13AC79001ABE67 /* AppDelegate.swift */; };
 		EEC637011F13AC79001ABE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC637001F13AC79001ABE67 /* Assets.xcassets */; };
 		EEC637141F13AFC0001ABE67 /* ContactList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC637131F13AFC0001ABE67 /* ContactList.storyboard */; };
@@ -50,7 +51,10 @@
 		EEC637181F13B5D3001ABE67 /* ContactListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC637171F13B5D3001ABE67 /* ContactListPresenter.swift */; };
 		EEC6371C1F13BAB3001ABE67 /* ContactListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6371B1F13BAB3001ABE67 /* ContactListInteractor.swift */; };
 		EEC637211F13C5E2001ABE67 /* ContactListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC637201F13C5E2001ABE67 /* ContactListRouter.swift */; };
-		FFF2CDB41F1CB693004F3A95 /* vviperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2CDB31F1CB693004F3A95 /* vviperTests.swift */; };
+		FF2723651F1D03F70067CF45 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FF2723641F1D03F70067CF45 /* Podfile */; };
+		FFB55B3A1F1CF2DC001EF619 /* JobListFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB55B391F1CF2DC001EF619 /* JobListFactoryTest.swift */; };
+		FFB55B3D1F1CF52A001EF619 /* JobListInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB55B3C1F1CF52A001EF619 /* JobListInteractorTest.swift */; };
+		FFB55B3E1F1CFA8A001EF619 /* JobOfferFavoriteUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D911F17A06B00000D98 /* JobOfferFavoriteUseCase.swift */; };
 		FFF2CDBC1F1CB6F7004F3A95 /* Home2FactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2CDBB1F1CB6F7004F3A95 /* Home2FactoryTest.swift */; };
 		FFF2CDBE1F1CB8DC004F3A95 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D561F16235900000D98 /* HomeFactory.swift */; };
 /* End PBXBuildFile section */
@@ -66,6 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BF568B63B2C79ECE1A2AD5F /* Pods-vviperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vviperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vviperTests/Pods-vviperTests.release.xcconfig"; sourceTree = "<group>"; };
 		2F1B3D4A1F1621CC00000D98 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		2F1B3D4E1F16227200000D98 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		2F1B3D501F16227D00000D98 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
@@ -103,6 +108,10 @@
 		2FB3CF9F1F151C230091C734 /* ContactDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactDetailInteractor.swift; path = vviper/Modules/ContactDetail/ContactDetailInteractor.swift; sourceTree = SOURCE_ROOT; };
 		2FB3CFA11F1525BD0091C734 /* ContactDetailFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactDetailFactory.swift; path = vviper/Modules/ContactDetail/ContactDetailFactory.swift; sourceTree = SOURCE_ROOT; };
 		2FB3CFA71F15750C0091C734 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BE6295A01C9287B76706157 /* Pods-vviper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vviper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vviper/Pods-vviper.debug.xcconfig"; sourceTree = "<group>"; };
+		52DA5539EF66C9031BA23002 /* Pods_vviper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vviper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7088E7726C77F1E97F1996F /* Pods-vviperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vviperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vviperTests/Pods-vviperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0CF0B8097BE561119549D90 /* Pods-vviper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vviper.release.xcconfig"; path = "Pods/Target Support Files/Pods-vviper/Pods-vviper.release.xcconfig"; sourceTree = "<group>"; };
 		EEC636F61F13AC79001ABE67 /* vviper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vviper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC636F91F13AC79001ABE67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEC637001F13AC79001ABE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,8 +121,11 @@
 		EEC637171F13B5D3001ABE67 /* ContactListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListPresenter.swift; path = vviper/Modules/ContactList/ContactListPresenter.swift; sourceTree = SOURCE_ROOT; };
 		EEC6371B1F13BAB3001ABE67 /* ContactListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListInteractor.swift; path = vviper/Modules/ContactList/ContactListInteractor.swift; sourceTree = SOURCE_ROOT; };
 		EEC637201F13C5E2001ABE67 /* ContactListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListRouter.swift; path = vviper/Modules/ContactList/ContactListRouter.swift; sourceTree = SOURCE_ROOT; };
+		F1FBB1682EEBB3BEF01577CD /* Pods_vviperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vviperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2723641F1D03F70067CF45 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FFB55B391F1CF2DC001EF619 /* JobListFactoryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobListFactoryTest.swift; sourceTree = "<group>"; };
+		FFB55B3C1F1CF52A001EF619 /* JobListInteractorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobListInteractorTest.swift; sourceTree = "<group>"; };
 		FFF2CDB11F1CB693004F3A95 /* vviperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vviperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFF2CDB31F1CB693004F3A95 /* vviperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vviperTests.swift; sourceTree = "<group>"; };
 		FFF2CDB51F1CB693004F3A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFF2CDBB1F1CB6F7004F3A95 /* Home2FactoryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home2FactoryTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552B5335AE8F90F056BFB324 /* Pods_vviper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1290CA18CB0CE7DE6EFB76 /* Pods_vviperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +208,7 @@
 		2F1B3D741F16578A00000D98 /* Home2 */ = {
 			isa = PBXGroup;
 			children = (
-				2F1B3D751F16579B00000D98 /* View */,
+				2F1B3D751F16579B00000D98 /* Home2View */,
 				2F1B3D761F1657D900000D98 /* Home2Factory.swift */,
 				2F1B3D781F1657E300000D98 /* Home2Interactor.swift */,
 				2F1B3D7A1F1657ED00000D98 /* Home2Presenter.swift */,
@@ -203,12 +217,13 @@
 			path = Home2;
 			sourceTree = "<group>";
 		};
-		2F1B3D751F16579B00000D98 /* View */ = {
+		2F1B3D751F16579B00000D98 /* Home2View */ = {
 			isa = PBXGroup;
 			children = (
 				2F1B3D7E1F16594900000D98 /* Home2.storyboard */,
 				2F1B3D801F16595E00000D98 /* Home2VC.swift */,
 			);
+			name = Home2View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -295,12 +310,35 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		44E08160AA08948E2FFC97F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52DA5539EF66C9031BA23002 /* Pods_vviper.framework */,
+				F1FBB1682EEBB3BEF01577CD /* Pods_vviperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91718C4F8928AE7710EA03F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BE6295A01C9287B76706157 /* Pods-vviper.debug.xcconfig */,
+				E0CF0B8097BE561119549D90 /* Pods-vviper.release.xcconfig */,
+				C7088E7726C77F1E97F1996F /* Pods-vviperTests.debug.xcconfig */,
+				0BF568B63B2C79ECE1A2AD5F /* Pods-vviperTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EEC636ED1F13AC79001ABE67 = {
 			isa = PBXGroup;
 			children = (
+				FF2723641F1D03F70067CF45 /* Podfile */,
 				EEC636F81F13AC79001ABE67 /* vviper */,
 				EEC636F71F13AC79001ABE67 /* Products */,
 				FFF2CDB21F1CB693004F3A95 /* vviperTests */,
+				91718C4F8928AE7710EA03F8 /* Pods */,
+				44E08160AA08948E2FFC97F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -361,11 +399,36 @@
 			path = vviper/Modules/ContactList/View;
 			sourceTree = "<group>";
 		};
+		FFB55B351F1CF273001EF619 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FFB55B3B1F1CF2E3001EF619 /* JobList */,
+				FFB55B361F1CF27E001EF619 /* Home2 */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		FFB55B361F1CF27E001EF619 /* Home2 */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2CDBB1F1CB6F7004F3A95 /* Home2FactoryTest.swift */,
+			);
+			name = Home2;
+			sourceTree = "<group>";
+		};
+		FFB55B3B1F1CF2E3001EF619 /* JobList */ = {
+			isa = PBXGroup;
+			children = (
+				FFB55B391F1CF2DC001EF619 /* JobListFactoryTest.swift */,
+				FFB55B3C1F1CF52A001EF619 /* JobListInteractorTest.swift */,
+			);
+			name = JobList;
+			sourceTree = "<group>";
+		};
 		FFF2CDB21F1CB693004F3A95 /* vviperTests */ = {
 			isa = PBXGroup;
 			children = (
-				FFF2CDB31F1CB693004F3A95 /* vviperTests.swift */,
-				FFF2CDBB1F1CB6F7004F3A95 /* Home2FactoryTest.swift */,
+				FFB55B351F1CF273001EF619 /* Modules */,
 				FFF2CDB51F1CB693004F3A95 /* Info.plist */,
 			);
 			path = vviperTests;
@@ -378,9 +441,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEC637081F13AC79001ABE67 /* Build configuration list for PBXNativeTarget "vviper" */;
 			buildPhases = (
+				E5EF977F693FBB74EA7CF36F /* [CP] Check Pods Manifest.lock */,
 				EEC636F21F13AC79001ABE67 /* Sources */,
 				EEC636F31F13AC79001ABE67 /* Frameworks */,
 				EEC636F41F13AC79001ABE67 /* Resources */,
+				13C997434DA2E1AD5A7AB8B0 /* [CP] Embed Pods Frameworks */,
+				D024A3E33DB2AC59FC2E4112 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,9 +461,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFF2CDBA1F1CB693004F3A95 /* Build configuration list for PBXNativeTarget "vviperTests" */;
 			buildPhases = (
+				37E2B79076FD5C44E987E0E4 /* [CP] Check Pods Manifest.lock */,
 				FFF2CDAD1F1CB693004F3A95 /* Sources */,
 				FFF2CDAE1F1CB693004F3A95 /* Frameworks */,
 				FFF2CDAF1F1CB693004F3A95 /* Resources */,
+				F19D69C3F69A5936DABFF63B /* [CP] Embed Pods Frameworks */,
+				95EA8B728A3AA79E8ED54598 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -462,6 +531,7 @@
 				EEC637141F13AFC0001ABE67 /* ContactList.storyboard in Resources */,
 				2F1B3D4B1F1621CC00000D98 /* Home.storyboard in Resources */,
 				2F1B3D6C1F16540C00000D98 /* JobFavoriteList.storyboard in Resources */,
+				FF2723651F1D03F70067CF45 /* Podfile in Resources */,
 				2F1B3D721F16540C00000D98 /* JobList.storyboard in Resources */,
 				2FB3CF8F1F14DA260091C734 /* ContactDetail.storyboard in Resources */,
 			);
@@ -475,6 +545,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13C997434DA2E1AD5A7AB8B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vviper/Pods-vviper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37E2B79076FD5C44E987E0E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95EA8B728A3AA79E8ED54598 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vviperTests/Pods-vviperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D024A3E33DB2AC59FC2E4112 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vviper/Pods-vviper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5EF977F693FBB74EA7CF36F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F19D69C3F69A5936DABFF63B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vviperTests/Pods-vviperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EEC636F21F13AC79001ABE67 /* Sources */ = {
@@ -515,7 +678,7 @@
 				2FB3CF8B1F14D9D90091C734 /* ContactDetailPresenter.swift in Sources */,
 				2FB3CF9C1F150DCB0091C734 /* ContactListFactory.swift in Sources */,
 				2F1B3D8E1F1770BE00000D98 /* JobOfferFavorite.swift in Sources */,
-				2F1B3D921F17A06B00000D98 /* JobOfferFavoriteUseCase.swift in Sources */,
+				FFB55B3E1F1CFA8A001EF619 /* JobOfferFavoriteUseCase.swift in Sources */,
 				2F1B3D511F16227D00000D98 /* HomeInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,8 +687,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB55B3D1F1CF52A001EF619 /* JobListInteractorTest.swift in Sources */,
 				FFF2CDBC1F1CB6F7004F3A95 /* Home2FactoryTest.swift in Sources */,
-				FFF2CDB41F1CB693004F3A95 /* vviperTests.swift in Sources */,
+				FFB55B3A1F1CF2DC001EF619 /* JobListFactoryTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +799,7 @@
 		};
 		EEC637091F13AC79001ABE67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE6295A01C9287B76706157 /* Pods-vviper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 43VBDTY4E3;
@@ -648,6 +813,7 @@
 		};
 		EEC6370A1F13AC79001ABE67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0CF0B8097BE561119549D90 /* Pods-vviper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 43VBDTY4E3;
@@ -661,6 +827,7 @@
 		};
 		FFF2CDB81F1CB693004F3A95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7088E7726C77F1E97F1996F /* Pods-vviperTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 43VBDTY4E3;
@@ -675,6 +842,7 @@
 		};
 		FFF2CDB91F1CB693004F3A95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF568B63B2C79ECE1A2AD5F /* Pods-vviperTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 43VBDTY4E3;
