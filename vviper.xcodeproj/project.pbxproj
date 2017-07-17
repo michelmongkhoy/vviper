@@ -12,7 +12,6 @@
 		2F1B3D511F16227D00000D98 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D501F16227D00000D98 /* HomeInteractor.swift */; };
 		2F1B3D531F16228800000D98 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D521F16228800000D98 /* HomeRouter.swift */; };
 		2F1B3D551F16229D00000D98 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D541F16229D00000D98 /* HomeVC.swift */; };
-		2F1B3D571F16235900000D98 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D561F16235900000D98 /* HomeFactory.swift */; };
 		2F1B3D681F16540C00000D98 /* JobFavoriteListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D591F16540C00000D98 /* JobFavoriteListFactory.swift */; };
 		2F1B3D691F16540C00000D98 /* JobFavoriteListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D5A1F16540C00000D98 /* JobFavoriteListInteractor.swift */; };
 		2F1B3D6A1F16540C00000D98 /* JobFavoriteListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D5B1F16540C00000D98 /* JobFavoriteListPresenter.swift */; };
@@ -51,7 +50,20 @@
 		EEC637181F13B5D3001ABE67 /* ContactListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC637171F13B5D3001ABE67 /* ContactListPresenter.swift */; };
 		EEC6371C1F13BAB3001ABE67 /* ContactListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6371B1F13BAB3001ABE67 /* ContactListInteractor.swift */; };
 		EEC637211F13C5E2001ABE67 /* ContactListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC637201F13C5E2001ABE67 /* ContactListRouter.swift */; };
+		FFF2CDB41F1CB693004F3A95 /* vviperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2CDB31F1CB693004F3A95 /* vviperTests.swift */; };
+		FFF2CDBC1F1CB6F7004F3A95 /* Home2FactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2CDBB1F1CB6F7004F3A95 /* Home2FactoryTest.swift */; };
+		FFF2CDBE1F1CB8DC004F3A95 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B3D561F16235900000D98 /* HomeFactory.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF2CDB61F1CB693004F3A95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEC636EE1F13AC79001ABE67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC636F51F13AC79001ABE67;
+			remoteInfo = vviper;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2F1B3D4A1F1621CC00000D98 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -100,10 +112,21 @@
 		EEC637171F13B5D3001ABE67 /* ContactListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListPresenter.swift; path = vviper/Modules/ContactList/ContactListPresenter.swift; sourceTree = SOURCE_ROOT; };
 		EEC6371B1F13BAB3001ABE67 /* ContactListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListInteractor.swift; path = vviper/Modules/ContactList/ContactListInteractor.swift; sourceTree = SOURCE_ROOT; };
 		EEC637201F13C5E2001ABE67 /* ContactListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactListRouter.swift; path = vviper/Modules/ContactList/ContactListRouter.swift; sourceTree = SOURCE_ROOT; };
+		FFF2CDB11F1CB693004F3A95 /* vviperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vviperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF2CDB31F1CB693004F3A95 /* vviperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vviperTests.swift; sourceTree = "<group>"; };
+		FFF2CDB51F1CB693004F3A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF2CDBB1F1CB6F7004F3A95 /* Home2FactoryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home2FactoryTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EEC636F31F13AC79001ABE67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF2CDAE1F1CB693004F3A95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,8 +298,9 @@
 		EEC636ED1F13AC79001ABE67 = {
 			isa = PBXGroup;
 			children = (
-				EEC636F71F13AC79001ABE67 /* Products */,
 				EEC636F81F13AC79001ABE67 /* vviper */,
+				EEC636F71F13AC79001ABE67 /* Products */,
+				FFF2CDB21F1CB693004F3A95 /* vviperTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -284,6 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				EEC636F61F13AC79001ABE67 /* vviper.app */,
+				FFF2CDB11F1CB693004F3A95 /* vviperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -336,6 +361,16 @@
 			path = vviper/Modules/ContactList/View;
 			sourceTree = "<group>";
 		};
+		FFF2CDB21F1CB693004F3A95 /* vviperTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2CDB31F1CB693004F3A95 /* vviperTests.swift */,
+				FFF2CDBB1F1CB6F7004F3A95 /* Home2FactoryTest.swift */,
+				FFF2CDB51F1CB693004F3A95 /* Info.plist */,
+			);
+			path = vviperTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -356,6 +391,24 @@
 			productReference = EEC636F61F13AC79001ABE67 /* vviper.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FFF2CDB01F1CB693004F3A95 /* vviperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF2CDBA1F1CB693004F3A95 /* Build configuration list for PBXNativeTarget "vviperTests" */;
+			buildPhases = (
+				FFF2CDAD1F1CB693004F3A95 /* Sources */,
+				FFF2CDAE1F1CB693004F3A95 /* Frameworks */,
+				FFF2CDAF1F1CB693004F3A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF2CDB71F1CB693004F3A95 /* PBXTargetDependency */,
+			);
+			name = vviperTests;
+			productName = vviperTests;
+			productReference = FFF2CDB11F1CB693004F3A95 /* vviperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -368,7 +421,14 @@
 				TargetAttributes = {
 					EEC636F51F13AC79001ABE67 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 43VBDTY4E3;
 						ProvisioningStyle = Automatic;
+					};
+					FFF2CDB01F1CB693004F3A95 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 43VBDTY4E3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEC636F51F13AC79001ABE67;
 					};
 				};
 			};
@@ -386,6 +446,7 @@
 			projectRoot = "";
 			targets = (
 				EEC636F51F13AC79001ABE67 /* vviper */,
+				FFF2CDB01F1CB693004F3A95 /* vviperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -403,6 +464,13 @@
 				2F1B3D6C1F16540C00000D98 /* JobFavoriteList.storyboard in Resources */,
 				2F1B3D721F16540C00000D98 /* JobList.storyboard in Resources */,
 				2FB3CF8F1F14DA260091C734 /* ContactDetail.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF2CDAF1F1CB693004F3A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +498,8 @@
 				2FB3CFA01F151C230091C734 /* ContactDetailInteractor.swift in Sources */,
 				2F1B3D681F16540C00000D98 /* JobFavoriteListFactory.swift in Sources */,
 				2FB3CF9A1F150D2E0091C734 /* RootRouter.swift in Sources */,
+				FFF2CDBE1F1CB8DC004F3A95 /* HomeFactory.swift in Sources */,
 				2F1B3D6F1F16540C00000D98 /* JobListInteractor.swift in Sources */,
-				2F1B3D571F16235900000D98 /* HomeFactory.swift in Sources */,
 				2F1B3D551F16229D00000D98 /* HomeVC.swift in Sources */,
 				2F1B3D7D1F1657FE00000D98 /* Home2Router.swift in Sources */,
 				EEC636FA1F13AC79001ABE67 /* AppDelegate.swift in Sources */,
@@ -452,7 +520,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFF2CDAD1F1CB693004F3A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF2CDBC1F1CB6F7004F3A95 /* Home2FactoryTest.swift in Sources */,
+				FFF2CDB41F1CB693004F3A95 /* vviperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF2CDB71F1CB693004F3A95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEC636F51F13AC79001ABE67 /* vviper */;
+			targetProxy = FFF2CDB61F1CB693004F3A95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EEC637061F13AC79001ABE67 /* Debug */ = {
@@ -552,6 +637,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43VBDTY4E3;
 				INFOPLIST_FILE = vviper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viadeo.vviper;
@@ -564,11 +650,40 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43VBDTY4E3;
 				INFOPLIST_FILE = vviper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viadeo.vviper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FFF2CDB81F1CB693004F3A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 43VBDTY4E3;
+				INFOPLIST_FILE = vviperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blazejsleboda.vviperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vviper.app/vviper";
+			};
+			name = Debug;
+		};
+		FFF2CDB91F1CB693004F3A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 43VBDTY4E3;
+				INFOPLIST_FILE = vviperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blazejsleboda.vviperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vviper.app/vviper";
 			};
 			name = Release;
 		};
@@ -589,6 +704,15 @@
 			buildConfigurations = (
 				EEC637091F13AC79001ABE67 /* Debug */,
 				EEC6370A1F13AC79001ABE67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF2CDBA1F1CB693004F3A95 /* Build configuration list for PBXNativeTarget "vviperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF2CDB81F1CB693004F3A95 /* Debug */,
+				FFF2CDB91F1CB693004F3A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
