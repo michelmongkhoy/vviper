@@ -12,7 +12,7 @@ class JobFavoriteListInteractor {
     
     var presenter : JobFavoriteListPresenter?
     
-    let jobOfferFavoriteUseCase: JobOfferFavoriteUseCase
+    var jobOfferFavoriteUseCase: JobOfferFavoriteUseCase
     
     init() {
         self.jobOfferFavoriteUseCase = JobOfferFavoriteUseCase()

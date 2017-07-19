@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		15850E9A4F46BA023919AC1AE9C61061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
 		17DFF918A5EEA2C2D77A0994873BFAAF /* VerificationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD727863AA8F09C3BB21BB1D51E158B0 /* VerificationMode.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		291C0B60A8CEC587D29F1E7FFF65D109 /* Pods-vviper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1820E9F07A435798ED40300B925BA9D3 /* Pods-vviper-dummy.m */; };
 		2FA3EA8417062EBB40995E096CA86A58 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4096FEA0D58BC17D9CB9B6AD591E22E /* Mock.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3318505683C03A391E7FC64B58FBF276 /* Actionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616E9558C5CE9F5B5EFF32B14D81C8D4 /* Actionable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4CF5E7AB7C2665A48E3D8511C257241D /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68125FA60BF5B08F7AF010EC46CF04FF /* Action.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5310D5CF84CE6D66EFD5B056F5997D70 /* Pods-vviperTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815D65191A876BA4C28E55AE940502F9 /* Pods-vviperTests-dummy.m */; };
-		677EA2CF7DA012A2D34465E0AC6F7B0C /* Pods-vviper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1820E9F07A435798ED40300B925BA9D3 /* Pods-vviper-dummy.m */; };
 		714E55F97B2BA9D12CC52B9301FE892A /* ActionPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3E23B0ED0CC635AE5DB946A8AAA8CB /* ActionPerformer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		810BB95DB654B921693EFE25AFD20136 /* Mockit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DB5BFC13C5F5D458C948EB1D9DBCFC /* Mockit-dummy.m */; };
 		895499AB3133BF6625BA30E11B579911 /* AnyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E3C7DED281DE49C62EED93DF1E877A /* AnyValue.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -21,11 +21,10 @@
 		9FD49E0DD851EC78060D80D9BB552F69 /* MockFailerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB075EA4438E0C9A946AAD5DDF20ABA /* MockFailerImpl.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A191D7BF1440EE77525129AA588D5113 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1EF0EC8C780999BBA0D9697E5039C6 /* Stub.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A82FCFABFA577B780535D8F614E2E595 /* Pods-vviperTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFDC253B96B1D13EBF0F67AF813CA528 /* Pods-vviperTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3E98FCE7F59DC1BFD990E871EA90074 /* Pods-vviper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C020A701845BEC51CDEEE71F97E5DA /* Pods-vviper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA4D04D96A0A39E2953B54EF7871506D /* CallHandlerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C2344670CC4BB4C237246E171A88DC /* CallHandlerImpl.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		BF9FC744E1C9EEA2451C0426A634A2F0 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099372CC9FEB29A80F78379305B95DA /* State.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C1B9E119836E496868DD524A400E6759 /* MockMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CA11E7F85275D3D8295AA27DA2982 /* MockMatcher.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C74BEED4BB0B8BF8F08660AC7C141D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		C4394F61A1E6F2729A9635AA729F19CC /* Pods-vviper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C020A701845BEC51CDEEE71F97E5DA /* Pods-vviper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1887996B1071C02EC69D1F869E9CC6D /* ArgumentMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6938AE97F7DD3867D86E64B2F2F0A6B5 /* ArgumentMatcher.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D76049B19B2E473BA4D76DCC36C748D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
 		D894EDD9BD774E354675DEEED6C83981 /* VerificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D824AA2840FE59BFAA61ECA44F42AC /* VerificationData.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -33,10 +32,18 @@
 		F1FD622E5F3586372AD6F70273F02A22 /* CallHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC3ECA8397E3F6D525057CF5744761 /* CallHandler.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F6800807B978EFCDDB20E5F5BA7E44E4 /* MockFailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2A14F39F90E6A9882A2FE6575EB83 /* MockFailer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FA1D480062EB5184C9D63D7D749380C8 /* Mockit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DAD50901D974022EBED829C8F2C638E /* Mockit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC281A1BEA7B8CE2F04CC003F7975D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
 		FFF8BAD8628966993C126336B0A23A20 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F4637CCD6C3A51820A10E3C0C9BFB /* StringConstants.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		43CA72F1B0A89B2BD7C99E3E507EA4AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82144AA2EAE5F8851DB3FE1EFE69E034;
+			remoteInfo = Mockit;
+		};
 		982E12C66464E4E9DF8C6C2FCCA81363 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -99,6 +106,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		21FC219F72F6F81E8C8661888B8E8B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC281A1BEA7B8CE2F04CC003F7975D37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C63E8F9340F834C6CF3AA8A929657362 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,14 +128,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D76049B19B2E473BA4D76DCC36C748D5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA90182C8395CCBF00BC861885017DDD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C74BEED4BB0B8BF8F08660AC7C141D87 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,14 +276,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F500572C0A21E71315FB766E29482EE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3E98FCE7F59DC1BFD990E871EA90074 /* Pods-vviper-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		97BE40F33D3CFDD317F52CC8E8CDBBB6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,26 +284,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6EF6AC1DA1A4B21FDB89B060A04459B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4394F61A1E6F2729A9635AA729F19CC /* Pods-vviper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		155A9D7BF071125F06A0C33F53CD5BF0 /* Pods-vviper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC53E7858652B1905FC1A67495488E8C /* Build configuration list for PBXNativeTarget "Pods-vviper" */;
-			buildPhases = (
-				CF0CA941BE1D710EFE6214BD11BC50EB /* Sources */,
-				FA90182C8395CCBF00BC861885017DDD /* Frameworks */,
-				4F500572C0A21E71315FB766E29482EE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-vviper";
-			productName = "Pods-vviper";
-			productReference = E70D88D813DF12C2F1D1570B9678C146 /* Pods_vviper.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		7A23A3D91118DAD1764E0A3004287424 /* Pods-vviperTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 206BE5BDF8D2A20FE9F281D110F23099 /* Build configuration list for PBXNativeTarget "Pods-vviperTests" */;
@@ -340,6 +330,24 @@
 			productReference = 32BE07680BF84D6ADEFB10D042D3B67D /* Mockit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		969E338D293B34F973916230D01C4012 /* Pods-vviper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB875614008C863532B7EC1198D5E1A3 /* Build configuration list for PBXNativeTarget "Pods-vviper" */;
+			buildPhases = (
+				B90B9DFC3699E17B091DE0486D26E0E1 /* Sources */,
+				21FC219F72F6F81E8C8661888B8E8B25 /* Frameworks */,
+				D6EF6AC1DA1A4B21FDB89B060A04459B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E53FD37564180576D5B96527E044725 /* PBXTargetDependency */,
+			);
+			name = "Pods-vviper";
+			productName = "Pods-vviper";
+			productReference = E70D88D813DF12C2F1D1570B9678C146 /* Pods_vviper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -362,7 +370,7 @@
 			projectRoot = "";
 			targets = (
 				82144AA2EAE5F8851DB3FE1EFE69E034 /* Mockit */,
-				155A9D7BF071125F06A0C33F53CD5BF0 /* Pods-vviper */,
+				969E338D293B34F973916230D01C4012 /* Pods-vviper */,
 				7A23A3D91118DAD1764E0A3004287424 /* Pods-vviperTests */,
 			);
 		};
@@ -377,11 +385,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF0CA941BE1D710EFE6214BD11BC50EB /* Sources */ = {
+		B90B9DFC3699E17B091DE0486D26E0E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				677EA2CF7DA012A2D34465E0AC6F7B0C /* Pods-vviper-dummy.m in Sources */,
+				291C0B60A8CEC587D29F1E7FFF65D109 /* Pods-vviper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +426,12 @@
 			name = Mockit;
 			target = 82144AA2EAE5F8851DB3FE1EFE69E034 /* Mockit */;
 			targetProxy = 982E12C66464E4E9DF8C6C2FCCA81363 /* PBXContainerItemProxy */;
+		};
+		4E53FD37564180576D5B96527E044725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mockit;
+			target = 82144AA2EAE5F8851DB3FE1EFE69E034 /* Mockit */;
+			targetProxy = 43CA72F1B0A89B2BD7C99E3E507EA4AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -504,7 +518,7 @@
 			};
 			name = Debug;
 		};
-		3E0592593D6226098B85A47085015275 /* Release */ = {
+		54F917CB26F93037B64D15B8C7D171A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F6752A3D136FCA08D7389C6FF4E861D /* Pods-vviper.release.xcconfig */;
 			buildSettings = {
@@ -534,6 +548,8 @@
 				PRODUCT_NAME = Pods_vviper;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -657,6 +673,45 @@
 			};
 			name = Release;
 		};
+		CB75335D0CCF5B62E98A105007B133F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2807357643000DB83ADCDE6BD408FADC /* Pods-vviper.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-vviper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vviper/Pods-vviper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_vviper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CB8B3BA01AF1AD5324F17FE56A02130B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC11335AA59F7C523A82C93CD173F8D8 /* Pods-vviperTests.debug.xcconfig */;
@@ -696,42 +751,6 @@
 			};
 			name = Debug;
 		};
-		DF598C70B66C604FE43487AE9DA975DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2807357643000DB83ADCDE6BD408FADC /* Pods-vviper.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-vviper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-vviper/Pods-vviper.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_vviper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -762,11 +781,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC53E7858652B1905FC1A67495488E8C /* Build configuration list for PBXNativeTarget "Pods-vviper" */ = {
+		DB875614008C863532B7EC1198D5E1A3 /* Build configuration list for PBXNativeTarget "Pods-vviper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF598C70B66C604FE43487AE9DA975DC /* Debug */,
-				3E0592593D6226098B85A47085015275 /* Release */,
+				CB75335D0CCF5B62E98A105007B133F9 /* Debug */,
+				54F917CB26F93037B64D15B8C7D171A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

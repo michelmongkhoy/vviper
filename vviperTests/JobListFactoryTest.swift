@@ -8,13 +8,14 @@
 
 import XCTest
 
+import Mockit
+
 @testable import vviper
 
 class JobListFactoryTest: XCTestCase {
     
     func testJobListCreateMethod() {
         
-        let moc = Mock()
         
         let jobList = JobListFactory.create()
         
